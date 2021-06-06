@@ -6,8 +6,28 @@
 body{
   background-color: black;
   color: white;
-  
-
-  
-  text-transform: uppercase;
+  width: auto;
+  height: 100%;
 }
+
+.live__header{
+  border: 2px solid grey;
+  border-radius: 2.5rem;
+  text-align: center;
+  
+  margin:5px 250px 5px 250px;
+  padding: 5px;
+  background-color: grey;
+  cursor: pointer;
+}
+.live__header:hover{
+  background: rgba(61, 60, 60, 0.462);
+  transition: 800ms;
+ 
+}
+
+.heading{
+  text-align: center;
+}
+
+

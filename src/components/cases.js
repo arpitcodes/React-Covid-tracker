@@ -13,7 +13,7 @@ const Cases = () => {
         }
     }
     useEffect(() => {
-        getCovidData();
+        //getCovidData();
     }, [])
     return (
         <>

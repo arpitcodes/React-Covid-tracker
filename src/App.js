@@ -4,12 +4,12 @@ import "./App.css"
 
 const App = () => {
   return (
-    <>
-      <h1>🔴 LIVE</h1>
+    <section>
+      <h1 className="live__header">🔴 LIVE</h1>
       <h2 className="heading">Covid-19 Data Tracker</h2>
       <Cases />
 
-    </>
+    </section>
   )
 }
 
